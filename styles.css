@@ -10,13 +10,79 @@ body {
 
 .header {
     height: 10vh;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
     padding-top: 1vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .home {
     padding-bottom: 11%;
+}
+
+.send img {
+    width: 12vw;
+}
+
+#send-button {
+    height: 9vw;
+    background-color: rgba(165, 191, 204, 0.5);
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
+    border-style: none;
+    border-radius: 10px;
+}
+
+.write-message {
+    width: 50vw;
+    float: left;
+}
+
+.message-con textarea {
+    height: 16vh;
+    border-radius: 10px;
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.message-con {
+    padding-right: 2vw;
+}
+
+.name-con #name {
+    height: 5vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.email-con #email {
+    height: 5vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.identity input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+.contact-me {
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    padding-left: 7%;
+    padding-bottom: 4vh;
+    padding-top: 4vh;
+    background-color: rgba(165, 191, 204, 0.2);
+    height: 20vh;
+    
+}
+
+.identity {
+    float: left;
+    padding-right: 2vw;
+}
+
+.identity div {
+    padding-bottom: 3vh;
 }
 
 .about-me {
